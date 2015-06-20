@@ -1,0 +1,42 @@
+{
+  "name": "katc-noti",
+  "description": "Tracking katc to notify their assignment",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kimdwkimdw/katc",
+  "author": {
+    "name": "Arthur Dongwoo Kim",
+    "email": "kimdwkimdw@gmail.com",
+    "url": "http://github.com/kimdwkimdw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kimdwkimdw/katc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimdwkimdw/katc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kimdwkimdw/katc/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "cron": "1.0.9",
+    "irc": "kimdwkimdw/node-irc#hotfix/unicode-character-fix",
+    "js-base64": "2.1.8",
+    "request": "2.58.0",
+    "underscore": "1.8.3",
+    "cheerio": "*"
+  },
+  "devDependencies": {},
+  "bin": {},
+  "keywords": [
+    "katc",
+    "korean",
+    "military"
+  ]
+}

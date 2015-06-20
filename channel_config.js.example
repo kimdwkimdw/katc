@@ -1,0 +1,16 @@
+var channel_config = {};
+
+channel_config["slack"] = (function() {
+
+    var slack = {};
+
+    function send(msg) {
+        console.log("send using slack");
+    }
+
+    slack.send = send;
+
+    return slack;
+})();
+
+exports.channel_config = channel_config;

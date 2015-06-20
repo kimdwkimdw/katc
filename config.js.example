@@ -1,0 +1,7 @@
+var config = {
+    "startDate": "20150625",
+    "birthDay": "880629",
+    "name": "김동우",
+}
+
+exports.config = config;
