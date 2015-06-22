@@ -2,6 +2,8 @@ var config = {
     "startDate": "20150625",
     "birthDay": "880629",
     "name": "김동우",
+    "cron": "00 30 15 * * 2", /* Runs every Monday at 15:30:00 */
+    "port": 8080,
 }
 
 exports.config = config;
